@@ -1,0 +1,21 @@
+.comment { display: flex; gap: 8px; margin-bottom: 8px; }
+
+.comment-avatar {
+  width: 32px; height: 32px; border-radius: 50%; flex-shrink: 0;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff; display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 13px;
+}
+
+.comment-body { flex: 1; }
+
+.comment-bubble {
+  background: var(--bg); border-radius: 18px;
+  padding: 8px 12px; display: inline-block; max-width: 100%;
+}
+.comment-name { font-weight: 700; font-size: 13px; display: block; margin-bottom: 2px; }
+.comment-text { font-size: 14px; line-height: 1.4; }
+
+.comment-meta { display: flex; gap: 12px; padding: 4px 8px; font-size: 12px; color: var(--text-secondary); }
+.comment-delete { background: none; border: none; color: var(--danger); font-size: 12px; font-weight: 600; }
+.comment-delete:hover { text-decoration: underline; }

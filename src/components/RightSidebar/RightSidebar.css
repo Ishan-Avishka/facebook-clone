@@ -1,0 +1,28 @@
+.right-sidebar {
+  position: sticky; top: calc(var(--navbar-h) + 16px);
+  width: 280px; padding: 8px;
+}
+
+.rs-title { font-size: 17px; color: var(--text-secondary); padding: 8px 12px 4px; font-weight: 600; }
+.rs-empty { font-size: 13px; color: var(--text-secondary); padding: 4px 12px; }
+
+.rs-contact {
+  display: flex; align-items: center; gap: 12px;
+  padding: 8px 12px; border-radius: var(--radius);
+  font-size: 15px; font-weight: 500;
+  transition: background 0.2s; position: relative;
+}
+.rs-contact:hover { background: var(--hover); }
+
+.rs-avatar {
+  width: 36px; height: 36px; border-radius: 50%;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff; display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 15px; flex-shrink: 0;
+}
+
+.rs-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: #31a24c; border: 2px solid #fff;
+  position: absolute; left: 42px; bottom: 8px;
+}
